@@ -1,9 +1,111 @@
 /* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {font-family: 'raleway';}
 
 /* HEADER */
 
+header{
+    background-color: #489ec2;
+    height: 23vh;
+    border-bottom: 5px solid #337492;
+    ;
+}
+
+h1{
+    
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-top: 3vh;
+    color: white;
+    line-height: 1.5;
+}
+
+.intestazione{
+    background-color: white;
+    color: #03a1c6;
+    line-height: 1.4;
+}
+
+header>h2 {
+    font-family: 'raleway';
+    text-align: center;
+    margin-top: 3vh;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.description{
+    font-variant: small-caps;
+}
+
+
 /* MAIN */
 
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'raleway';
+    text-align: center;
+    margin-top: 4vh;
+    font-weight:600;
+    font-size: 28px; 
+    color: #337492;
+    text-transform: uppercase;
+    margin-bottom: 4vh;
+}
+
+.workimage{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: 9px;
+    width: 75%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+figcaption{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+address b {
+    font-weight: bold;
+}
+
+address img{
+    margin-bottom: 4px;
+}
+
+address a{
+    color: red;
+}
+
+address{
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+blockquote{
+    margin: 0 auto;
+    border: 1px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    background: #E3E3E3;
+}
+
+blockquote p{
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2;
+}
 /* ELEMENTI NEL MAIN */
 
 /* FOOTER */
