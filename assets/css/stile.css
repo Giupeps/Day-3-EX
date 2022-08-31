@@ -3,19 +3,21 @@
 * {font-family: 'raleway';}
 
 /* HEADER */
+body{
+    font-family: 'raleway', sans-serif;
+}
 
 header{
     background-color: #489ec2;
     height: 23vh;
     border-bottom: 5px solid #337492;
-    ;
 }
 
 h1{
     
     text-align: center;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2em;
     text-transform: uppercase;
     padding-top: 3vh;
     color: white;
@@ -29,7 +31,6 @@ h1{
 }
 
 header>h2 {
-    font-family: 'raleway';
     text-align: center;
     margin-top: 3vh;
     font-weight: 500;
@@ -49,7 +50,6 @@ main{
 }
 
 h2{
-    font-family: 'raleway';
     text-align: center;
     margin-top: 4vh;
     font-weight:600;
