@@ -92,13 +92,23 @@ address{
     margin-bottom: 1.8em;
 }
 
+p {
+    line-height: 1.8em;
+    font-weight: 600;
+}
+
 blockquote{
     margin: 0 auto;
     border: 1px;
     margin-top: 10px;
-    padding: 8px;
-    border-radius: 20px;
+    padding: 20px 12px;
+    border-radius: 15px;
     background: #E3E3E3;
+}
+
+#about_me{
+    font-weight: bold;
+    margin-bottom: 2em;
 }
 
 blockquote p{
@@ -106,6 +116,49 @@ blockquote p{
     font-weight: bold;
     line-height: 2;
 }
+
+h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin:1.1vh 0vh  1.1vh 0vh;
+}
+
+strong{
+    color: #03a1c6;
+}
+
+hr{
+    border-top: 1px dashed;
+    margin-top: 6vh;
+    max-width: 90%;
+}
+
+mark{
+    background-color: #337492 ;
+    color: white;
+}
+
+#link_epicode{
+    color: red;
+}
+
+ul{
+    padding-left: 4em;
+}
+
+li{
+    line-height: 3vh;
+    font-weight: 500;
+}
+
+dd{
+    padding-left: 5vw;
+}
+
+dt{
+    line-height: 3.5vh;
+}
+
 /* ELEMENTI NEL MAIN */
 
 /* FOOTER */
